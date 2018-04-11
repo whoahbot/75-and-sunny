@@ -1,0 +1,11 @@
+s3_id: <%= ENV['75_BUCKET_ACCESS_ID'] %>
+s3_secret: <%= ENV['75_ACCESS_SECRET'] %>
+s3_bucket: 75degreesandsunny.org
+gzip:
+  - .html
+  - .png
+  - .css
+  - .jpeg
+  - .jpg
+  - .mp4
+s3_reduced_redundancy: true
