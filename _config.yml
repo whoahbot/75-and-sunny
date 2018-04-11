@@ -1,0 +1,5 @@
+name: 75degreesandsunny.org
+markdown: kramdown
+highligther: pygments
+timezone: US/Pacific
+exclude: ['Gemfile', 'Gemfile.lock', '*.sublime-*', 'lib','vendor', 'Rakefile', 's3_website.yml']
